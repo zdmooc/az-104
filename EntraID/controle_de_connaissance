@@ -1,0 +1,77 @@
+Contrôle des connaissances : Microsoft Entra ID et Domain Services
+Section 1: Microsoft Entra ID - Concepts de base
+Quelle est la principale fonction de Microsoft Entra ID ?
+
+a) Fournir des services de messagerie
+b) Fournir une solution d’identité basée sur le cloud
+c) Gérer les bases de données SQL
+d) Déployer des applications mobiles
+Quel protocole d'authentification n'est pas utilisé par Microsoft Entra ID ?
+
+a) OAuth
+b) OpenID Connect
+c) Kerberos
+d) SAML
+Quelle est la principale différence entre Microsoft Entra ID et AD DS ?
+
+a) Microsoft Entra ID est basé sur le cloud, tandis que AD DS est un service local
+b) Microsoft Entra ID utilise une structure plate, tandis que AD DS utilise une structure hiérarchique
+c) AD DS est uniquement utilisé pour les applications cloud
+d) Microsoft Entra ID utilise LDAP pour les requêtes
+Section 2: Microsoft Entra ID P1 vs P2
+Quelle fonctionnalité est exclusive à Microsoft Entra ID P2 ?
+
+a) Authentification multifacteur
+b) Réinitialisation de mot de passe en libre-service
+c) Microsoft Entra ID Protection pour les connexions basées sur le risque
+d) Gestion des groupes en libre-service
+Quelle est la fonctionnalité commune à Microsoft Entra ID P1 et P2 ?
+
+a) Accès conditionnel basé sur les appareils
+b) Microsoft Entra Privileged Identity Management
+c) Microsoft Entra ID Protection
+d) Gestion des unités d'organisation (UO)
+Quelle licence Premium minimale est nécessaire pour implémenter des connexions basées sur le risque ?
+
+a) Office 365
+b) Microsoft Entra ID P2
+c) Microsoft Entra ID P1
+d) Microsoft Entra ID Free
+Section 3: Microsoft Entra Domain Services
+Quel est l'un des avantages de l'utilisation de Microsoft Entra Domain Services par rapport à la gestion traditionnelle d'AD DS ?
+
+a) Les administrateurs n'ont pas besoin de gérer les contrôleurs de domaine
+b) Il prend en charge les unités d'organisation imbriquées
+c) Il permet l'extension du schéma AD
+d) Il nécessite la gestion manuelle des réplicas AD DS
+Quel protocole est pris en charge par Microsoft Entra Domain Services pour l'authentification ?
+
+a) Kerberos
+b) OAuth
+c) OpenID Connect
+d) SAML
+Quelle est une limitation de Microsoft Entra Domain Services ?
+
+a) Il ne prend pas en charge Kerberos
+b) Il ne permet pas l'extension du schéma AD
+c) Il n'offre pas de support pour LDAP
+d) Il nécessite un contrôleur de domaine dans le cloud
+Quelle application peut être migrée vers le cloud en utilisant Microsoft Entra Domain Services sans nécessiter de contrôleur de domaine dans Azure ?
+
+a) Microsoft SQL Server
+b) Google Workspace
+c) AWS Lambda
+d) Docker
+Section 4: Scénarios d'utilisation et intégration
+Comment Microsoft Entra Domain Services s'intègre-t-il avec une infrastructure locale AD DS ?
+
+a) Via Microsoft Entra Connect, permettant la synchronisation des utilisateurs et des informations d'identification
+b) En utilisant uniquement un VPN
+c) Par l'extension du schéma AD local
+d) Via la création de réplicas de contrôleurs de domaine dans le cloud
+Quelle méthode permet d'activer l'authentification Microsoft Entra ID pour une Web App dans Azure App Service ?
+
+a) Utiliser des scripts PowerShell
+b) Configurer les paramètres d'authentification dans le panneau Authentification/Autorisation du portail Azure
+c) Configurer un VPN entre Azure et l'infrastructure locale
+d) Déployer une machine virtuelle avec un contrôleur de domaine
